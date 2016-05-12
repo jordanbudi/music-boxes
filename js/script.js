@@ -42,3 +42,20 @@ $(document).ready(function(){
       bNote.play();
   });
 });
+
+
+
+///EXAMPLE OF REFRACTORING JS TO MAKE IT SIMPLER//////
+
+//$(document).ready(function(){
+//  
+//  $('.box').mousedown(function(){
+//      playNote(this.id);
+//  });
+//
+//  function playNote(letter){          
+//    document.getElementById(letter+"Audio").currentTime = 0;
+//    document.getElementById(letter+"Audio").play();
+//  }  
+//
+//});
